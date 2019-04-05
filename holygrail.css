@@ -30,7 +30,7 @@ nav, aside{
 
 @media screen and (max-width: 620px){
   main{
-    /* flex-direction: */
+     flex-direction: column;
   }
   main>*:not(:nth-child(1)){
     margin-left:10px;
@@ -39,9 +39,9 @@ nav, aside{
   nav{
      order: 1;
   }
-  /*aside{
+  aside{
      order: 3;
-  }*/
+  }
   nav ul{
     text-align:center;
   }
